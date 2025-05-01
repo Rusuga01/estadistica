@@ -1,0 +1,213 @@
+head:
+  title: "Junior Usuga's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Junior Usuga.."
+  subtitle: "Industrial Engineer"
+  description: "Junior is an industrial engineer student who is alwais looking to grow through new challenges. He cinsistently strives to give his best in every task. Difficult moments are not obtacles for him, they are opportunities to demostrate what he is truly capable of. He takes pride in delivering the best possible results."
+  image:
+    x: "img/showcase/datasc.gif"
+    _2x: "img/showcase/datasc.gif"
+  imageMobile:
+    x: "img/showcase/datasc.gif"
+    _2x: "img/showcase/datasc.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Junior"
+    URL: "mailto:usugajunior81@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/junior-usuga-narvaez-2b9009345/"
+
+    - icon: "github"
+      URL: "https://github.com/Rusuga01"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/junuor_usuga/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/junior.usuga.16"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I'm a dedicated sportman.</strong> My passion is training and staying healthy. I also love studying my current carrer,
+    always seeking new knowledge to keep impoving. 
+    </p>
+    <p class="lead">
+    <strong>My main focus</strong> is research and data science. 
+    I enjoy applying concepts related to clean energy,
+    and I find physics especially inspiring as a foundation for my professional development. 
+    I make decisions with confidence and integrity, hoping to inspire other and earn ther trust.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/junior-usuga-narvaez-2b9009345/"
+  image:
+    x: "img/who-am-i/me.jpg"
+    _2x: "img/who-am-i/me.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "With around a year of expirience as an assistant beach volleyball coach, four months working as a stationery store salesperson, and currently employed at a billiard hall to support my academic expenses, I have develo versatility, dedication, and a strong work ethic. Each role has shaped my ability to adapt, comunicate effecively, and remain committed to achieving my goals."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/junior-usuga-narvaez-2b9009345/"
+  items:
+    - title: "Assistant on billiard"
+      company: "Billard Ruta 45"
+      duration: "feb 2025 - Apr 2025"
+
+    - title: "Assistant beach volleyball"
+      company: "Calis't beachvolley"
+      duration: "Jan 2024 - Feb 2025"
+
+    - title: "Stationery store salesperson"
+      company: "Institucion Educativa Prudencia Daza - library"
+      duration: "Nov 2022 - Mar 2023"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Magdalena"
+      year: "2014-2015"
+      degree: "Industrial Engineer"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos""
+
+  works:
+    - title: "Sales Demand Forecast Application"
+      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/app_sales_demand_forecast.jpg"
+      is_even: true
+
+    - title: "Product Price Recommendation"
+      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/app_cannondale_price_prediction.jpg"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+    
+
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Matt"
+    
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "--"
+  email:
+    title: "Email"
+    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "--"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
